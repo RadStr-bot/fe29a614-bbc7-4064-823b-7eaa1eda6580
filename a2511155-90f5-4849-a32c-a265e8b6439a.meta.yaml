@@ -1,0 +1,16 @@
+iri: a2511155-90f5-4849-a32c-a265e8b6439a
+projectIri: a2511155-90f5-4849-a32c-a265e8b6439a
+types:
+  - http://dataspecer.com/resources/local/visual-model
+userMetadata:
+  label:
+    en: Main view
+  description:
+    en: View model for the vocabulary
+metadata:
+  creationDate: 2026-03-27T21:47:26.705Z
+  modificationDate: 2026-03-27T22:22:00.731Z
+_version: 1
+_exportVersion: 1
+_exportedAt: 2026-03-27T22:22:04.776Z
+_exportedBy: http://localhost:3100

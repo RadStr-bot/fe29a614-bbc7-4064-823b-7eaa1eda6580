@@ -1,0 +1,14 @@
+iri: xyggy
+projectIri: xyggy
+types:
+  - https://dataspecer.com/core/model-descriptor/pim-store-wrapper
+userMetadata:
+  label:
+    en: DCAT - Data Catalog Vocabulary
+metadata:
+  creationDate: 2026-03-27T21:47:26.854Z
+  modificationDate: 2026-03-27T22:22:00.770Z
+_version: 1
+_exportVersion: 1
+_exportedAt: 2026-03-27T22:22:04.777Z
+_exportedBy: http://localhost:3100

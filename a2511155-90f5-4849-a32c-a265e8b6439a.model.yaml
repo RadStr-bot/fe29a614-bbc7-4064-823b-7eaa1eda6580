@@ -1,0 +1,120 @@
+identifier: a2511155-90f5-4849-a32c-a265e8b6439a
+version: 1
+type: http://dataspecer.com/resources/local/visual-model
+entities:
+  - identifier: a2511155-90f5-4849-a32c-a265e8b6439a-model-metadata-entity
+    type:
+      - entity-model-type
+    label:
+      en: Dataset types according to their source
+      cs: Typy datových sad dle zdroje
+  - type:
+      - http://dataspecer.com/resources/local/visual-model
+    representedModel: c78df54f-89fc-4daa-bffa-70d4b62a26b1
+    color: "#fc440f"
+    identifier: 30l7m
+  - type:
+      - http://dataspecer.com/resources/local/visual-model
+    representedModel: xyggy
+    color: "#b8a3d3"
+    identifier: mkod5
+  - model: xyggy
+    representedEntity: http://www.w3.org/ns/dcat#Dataset
+    position:
+      x: 710
+      y: 490
+    content: []
+    visualModels: []
+    type:
+      - visual-node
+    identifier: nq7uz
+  - model: c78df54f-89fc-4daa-bffa-70d4b62a26b1
+    representedEntity: iuvrli250pm7udki7a
+    position:
+      x: 570
+      y: 590
+    content: []
+    visualModels: []
+    type:
+      - visual-node
+    identifier: ymkjn
+  - model: c78df54f-89fc-4daa-bffa-70d4b62a26b1
+    representedRelationship: qj4g2w0j81rm7udki7b
+    waypoints: []
+    visualSource: ymkjn
+    visualTarget: nq7uz
+    type:
+      - visual-relationship
+    identifier: 8qwj6
+  - model: c78df54f-89fc-4daa-bffa-70d4b62a26b1
+    representedEntity: b31nw3rwustm7udl0wk
+    position:
+      x: 570
+      y: 370
+    content: []
+    visualModels: []
+    type:
+      - visual-node
+    identifier: cb62zj
+  - model: c78df54f-89fc-4daa-bffa-70d4b62a26b1
+    representedRelationship: 05lwbrkcbu2nm7udl7vi
+    waypoints: []
+    visualSource: cb62zj
+    visualTarget: nq7uz
+    type:
+      - visual-relationship
+    identifier: 4z67k
+  - model: c78df54f-89fc-4daa-bffa-70d4b62a26b1
+    representedEntity: a1fxi5v74aqm7udmx87
+    position:
+      x: 220
+      y: 740
+    content: []
+    visualModels: []
+    type:
+      - visual-node
+    identifier: dsmci
+  - model: c78df54f-89fc-4daa-bffa-70d4b62a26b1
+    representedRelationship: w1v7pivk8usm7udmx87
+    waypoints: []
+    visualSource: dsmci
+    visualTarget: ymkjn
+    type:
+      - visual-relationship
+    identifier: pnzyp
+  - model: c78df54f-89fc-4daa-bffa-70d4b62a26b1
+    representedEntity: 41zmnpdstebm7udm5be
+    position:
+      x: 890
+      y: 740
+    content: []
+    visualModels: []
+    type:
+      - visual-node
+    identifier: 0k62b
+  - model: c78df54f-89fc-4daa-bffa-70d4b62a26b1
+    representedRelationship: 2hob4w9za1lm7udn6xl
+    waypoints: []
+    visualSource: 0k62b
+    visualTarget: ymkjn
+    type:
+      - visual-relationship
+    identifier: uzy3a
+  - model: c78df54f-89fc-4daa-bffa-70d4b62a26b1
+    representedEntity: t06hxpj1b8mm7udrs5a
+    position:
+      x: 550
+      y: 840
+    content: []
+    visualModels: []
+    type:
+      - visual-node
+    identifier: 04c4pj
+  - model: c78df54f-89fc-4daa-bffa-70d4b62a26b1
+    representedRelationship: b2xp2ppy1c6m7udrs5b
+    waypoints: []
+    visualSource: 04c4pj
+    visualTarget: ymkjn
+    type:
+      - visual-relationship
+    identifier: 2s7dx

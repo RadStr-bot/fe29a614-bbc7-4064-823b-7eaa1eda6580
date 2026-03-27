@@ -1,0 +1,85 @@
+type: http://dataspecer.com/resources/local/semantic-model
+modelId: c78df54f-89fc-4daa-bffa-70d4b62a26b1
+modelAlias: DCAT-AP-CZ - typy datových sad dle zdroje
+baseIri: https://data.gov.cz/slovník/nkod/typ-datové-sady-dle-zdroje/
+entities:
+  iuvrli250pm7udki7a:
+    id: iuvrli250pm7udki7a
+    iri: LKOD
+    type:
+      - class
+    name:
+      en: Dataset harvested from a local catalog of open data
+      cs: Datová sada harvestovaná z lokálního katalogu otevřených dat
+    description: {}
+  qj4g2w0j81rm7udki7b:
+    id: qj4g2w0j81rm7udki7b
+    iri: null
+    child: iuvrli250pm7udki7a
+    parent: http://www.w3.org/ns/dcat#Dataset
+    type:
+      - generalization
+  b31nw3rwustm7udl0wk:
+    id: b31nw3rwustm7udl0wk
+    iri: Formulář
+    type:
+      - class
+    name:
+      en: Dataset registered by a user form
+      cs: Datová sada registrovaná formulářem
+    description: {}
+  05lwbrkcbu2nm7udl7vi:
+    id: 05lwbrkcbu2nm7udl7vi
+    iri: ad16a622-89dc-457e-81d4-9087dd65fce4
+    child: b31nw3rwustm7udl0wk
+    parent: http://www.w3.org/ns/dcat#Dataset
+    type:
+      - generalization
+  41zmnpdstebm7udm5be:
+    id: 41zmnpdstebm7udm5be
+    iri: SPARQL
+    type:
+      - class
+    name:
+      en: Dataset harvested from local catalog using SPARQL endpoint interface
+      cs: Datová sada harvestovaná z LKOD přes rozhraní SPARQL endpoint
+    description: {}
+  a1fxi5v74aqm7udmx87:
+    id: a1fxi5v74aqm7udmx87
+    iri: DokumentyDCAT
+    type:
+      - class
+    name:
+      en: Dataset harvested from local catalog using DCAT-AP documents interface
+      cs: Datová sada harvestovaná z LKOD přes rozhraní DCAT-AP Dokumenty
+    description: {}
+  w1v7pivk8usm7udmx87:
+    id: w1v7pivk8usm7udmx87
+    iri: 156220a3-a77d-4b0a-9744-0841ad7be56f
+    child: a1fxi5v74aqm7udmx87
+    parent: iuvrli250pm7udki7a
+    type:
+      - generalization
+  2hob4w9za1lm7udn6xl:
+    id: 2hob4w9za1lm7udn6xl
+    iri: 76f27ca4-ac78-4333-8cdc-4c0400f41763
+    child: 41zmnpdstebm7udm5be
+    parent: iuvrli250pm7udki7a
+    type:
+      - generalization
+  t06hxpj1b8mm7udrs5a:
+    id: t06hxpj1b8mm7udrs5a
+    iri: CKAN
+    type:
+      - class
+    name:
+      en: Dataset harvested from local catalog using DCAT-AP documents interface
+      cs: Datová sada harvestovaná z LKOD přes rozhraní DCAT-AP Dokumenty
+    description: {}
+  b2xp2ppy1c6m7udrs5b:
+    id: b2xp2ppy1c6m7udrs5b
+    iri: 4458c5da-078d-4db9-9118-cd8446914dd3
+    child: t06hxpj1b8mm7udrs5a
+    parent: iuvrli250pm7udki7a
+    type:
+      - generalization

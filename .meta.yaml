@@ -1,0 +1,16 @@
+iri: fe29a614-bbc7-4064-823b-7eaa1eda6580
+projectIri: fe29a614-bbc7-4064-823b-7eaa1eda6580
+types:
+  - http://dataspecer.com/resources/local/package
+userMetadata:
+  label:
+    cs: DCAT-AP-CZ - typy datových sad podle zdroje
+    en: DCAT-AP-CZ - types of datasets according to their source
+  description: {}
+metadata:
+  creationDate: 2026-03-27T21:47:26.527Z
+  modificationDate: 2026-03-27T22:22:00.821Z
+_version: 1
+_exportVersion: 1
+_exportedAt: 2026-03-27T22:22:04.778Z
+_exportedBy: http://localhost:3100
